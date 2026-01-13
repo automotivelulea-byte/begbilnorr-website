@@ -5,6 +5,7 @@ import CarCard from '@/components/CarCard';
 import CarFilters from '@/components/CarFilters';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
+import Link from 'next/link';
 
 export default function CarsContent() {
   const searchParams = useSearchParams();
@@ -94,7 +95,7 @@ export default function CarsContent() {
             <p className="text-gray-600 mb-4">
               Försök ändra dina filterval eller kontakta oss för hjälp.
             </p>
-            <a
+            <Link
               href="/bilar"
               className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold"
             >
@@ -102,7 +103,7 @@ export default function CarsContent() {
               <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
-            </a>
+            </Link>
           </div>
         )}
       </div>

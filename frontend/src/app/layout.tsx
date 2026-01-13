@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Link from 'next/link';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -32,21 +33,21 @@ function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <a href="/" className="text-2xl font-bold text-primary-700">
+            <Link href="/" className="text-2xl font-bold text-primary-700">
               Begbilnorr
-            </a>
+            </Link>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <a href="/" className="text-gray-700 hover:text-primary-600 transition">
+            <Link href="/" className="text-gray-700 hover:text-primary-600 transition">
               Hem
-            </a>
-            <a href="/bilar" className="text-gray-700 hover:text-primary-600 transition">
+            </Link>
+            <Link href="/bilar" className="text-gray-700 hover:text-primary-600 transition">
               Alla Bilar
-            </a>
-            <a href="/kontakt" className="text-gray-700 hover:text-primary-600 transition">
+            </Link>
+            <Link href="/kontakt" className="text-gray-700 hover:text-primary-600 transition">
               Kontakt
-            </a>
+            </Link>
           </div>
 
           <div className="flex items-center space-x-4">
@@ -116,8 +117,8 @@ function Footer() {
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Snabblänkar</h4>
             <ul className="space-y-2">
-              <li><a href="/bilar" className="hover:text-white transition">Alla Bilar</a></li>
-              <li><a href="/kontakt" className="hover:text-white transition">Kontakta Oss</a></li>
+              <li><Link href="/bilar" className="hover:text-white transition">Alla Bilar</Link></li>
+              <li><Link href="/kontakt" className="hover:text-white transition">Kontakta Oss</Link></li>
               <li><a href="https://www.blocket.se/mobility/dealer/7514308/begbilnorr" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">Se oss på Blocket</a></li>
             </ul>
           </div>
