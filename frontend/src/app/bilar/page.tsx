@@ -1,47 +1,50 @@
-import { getCars, getFilters, CarFilters as CarFiltersType } from '@/lib/api';
+'use client';
+
+import { getCars, getFilters, Car, FiltersResponse, CarFilters as CarFiltersType } from '@/lib/api';
 import CarCard from '@/components/CarCard';
 import CarFilters from '@/components/CarFilters';
-import { Suspense } from 'react';
+import { useEffect, useState } from 'react';
+import { useSearchParams } from 'next/navigation';
 
-export const dynamic = 'force-dynamic';
+export default function CarsPage() {
+  const searchParams = useSearchParams();
+  const [cars, setCars] = useState<Car[]>([]);
+  const [total, setTotal] = useState(0);
+  const [lastSync, setLastSync] = useState<string | null>(null);
+  const [filtersData, setFiltersData] = useState<FiltersResponse>({
+    brands: [],
+    fuel_types: [],
+    transmissions: [],
+    body_types: [],
+    years: [],
+    price_range: { min: 0, max: 0 },
+  });
+  const [loading, setLoading] = useState(true);
 
-interface PageProps {
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
-}
-
-export default async function CarsPage({ searchParams }: PageProps) {
-  const params = await searchParams;
-
-  const filters: CarFiltersType = {
-    brand: params.brand as string,
-    min_price: params.min_price ? parseInt(params.min_price as string) : undefined,
-    max_price: params.max_price ? parseInt(params.max_price as string) : undefined,
-    min_year: params.min_year ? parseInt(params.min_year as string) : undefined,
-    max_year: params.max_year ? parseInt(params.max_year as string) : undefined,
-    fuel_type: params.fuel_type as string,
-    transmission: params.transmission as string,
-    sort_by: (params.sort_by as string) || 'price_asc',
-  };
-
-  let carsData;
-  let filtersData;
-
-  try {
-    [carsData, filtersData] = await Promise.all([
-      getCars(filters),
-      getFilters(),
-    ]);
-  } catch {
-    carsData = { cars: [], total: 0, last_sync: null };
-    filtersData = {
-      brands: [],
-      fuel_types: [],
-      transmissions: [],
-      body_types: [],
-      years: [],
-      price_range: { min: 0, max: 0 },
+  useEffect(() => {
+    const filters: CarFiltersType = {
+      brand: searchParams.get('brand') || undefined,
+      min_price: searchParams.get('min_price') ? parseInt(searchParams.get('min_price')!) : undefined,
+      max_price: searchParams.get('max_price') ? parseInt(searchParams.get('max_price')!) : undefined,
+      fuel_type: searchParams.get('fuel_type') || undefined,
+      transmission: searchParams.get('transmission') || undefined,
+      sort_by: searchParams.get('sort_by') || 'price_asc',
     };
-  }
+
+    setLoading(true);
+    Promise.all([getCars(filters), getFilters()])
+      .then(([carsData, filtersResult]) => {
+        setCars(carsData.cars);
+        setTotal(carsData.total);
+        setLastSync(carsData.last_sync);
+        setFiltersData(filtersResult);
+      })
+      .catch(() => {
+        setCars([]);
+        setTotal(0);
+      })
+      .finally(() => setLoading(false));
+  }, [searchParams]);
 
   return (
     <div className="min-h-screen bg-gray-50 py-8">
@@ -49,22 +52,24 @@ export default async function CarsPage({ searchParams }: PageProps) {
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900">Alla bilar</h1>
           <p className="text-gray-600 mt-2">
-            {carsData.total} bilar tillgängliga
-            {carsData.last_sync && (
+            {total} bilar tillgängliga
+            {lastSync && (
               <span className="text-sm text-gray-500 ml-2">
-                (Uppdaterad: {new Date(carsData.last_sync).toLocaleDateString('sv-SE')})
+                (Uppdaterad: {new Date(lastSync).toLocaleDateString('sv-SE')})
               </span>
             )}
           </p>
         </div>
 
-        <Suspense fallback={<FiltersSkeleton />}>
-          <CarFilters filters={filtersData} />
-        </Suspense>
+        <CarFilters filters={filtersData} />
 
-        {carsData.cars.length > 0 ? (
+        {loading ? (
+          <div className="text-center py-16">
+            <p className="text-gray-600">Laddar bilar...</p>
+          </div>
+        ) : cars.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {carsData.cars.map((car) => (
+            {cars.map((car) => (
               <CarCard key={car.id} car={car} />
             ))}
           </div>
@@ -100,21 +105,6 @@ export default async function CarsPage({ searchParams }: PageProps) {
             </a>
           </div>
         )}
-      </div>
-    </div>
-  );
-}
-
-function FiltersSkeleton() {
-  return (
-    <div className="bg-white rounded-xl shadow-md p-4 mb-6 animate-pulse">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-4">
-        {[...Array(6)].map((_, i) => (
-          <div key={i}>
-            <div className="h-4 bg-gray-200 rounded w-20 mb-2"></div>
-            <div className="h-10 bg-gray-200 rounded"></div>
-          </div>
-        ))}
       </div>
     </div>
   );

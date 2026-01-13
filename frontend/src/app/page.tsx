@@ -1,16 +1,20 @@
-import { getCars } from '@/lib/api';
+'use client';
+
+import { getCars, Car } from '@/lib/api';
 import CarCard from '@/components/CarCard';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
-export const dynamic = 'force-dynamic';
+export default function HomePage() {
+  const [cars, setCars] = useState<Car[]>([]);
+  const [loading, setLoading] = useState(true);
 
-export default async function HomePage() {
-  let carsData;
-  try {
-    carsData = await getCars({ limit: 6, sort_by: 'year_desc' });
-  } catch {
-    carsData = { cars: [], total: 0, last_sync: null };
-  }
+  useEffect(() => {
+    getCars({ limit: 6, sort_by: 'year_desc' })
+      .then(data => setCars(data.cars))
+      .catch(() => setCars([]))
+      .finally(() => setLoading(false));
+  }, []);
 
   return (
     <>
@@ -104,9 +108,13 @@ export default async function HomePage() {
             </Link>
           </div>
 
-          {carsData.cars.length > 0 ? (
+          {loading ? (
+            <div className="text-center py-12 bg-gray-50 rounded-xl">
+              <p className="text-gray-600">Laddar bilar...</p>
+            </div>
+          ) : cars.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {carsData.cars.map((car) => (
+              {cars.map((car) => (
                 <CarCard key={car.id} car={car} />
               ))}
             </div>
@@ -115,11 +123,11 @@ export default async function HomePage() {
               <svg className="w-16 h-16 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
               </svg>
-              <p className="text-gray-600">Laddar bilar från Blocket...</p>
+              <p className="text-gray-600">Inga bilar tillgängliga just nu.</p>
               <p className="text-sm text-gray-500 mt-2">
-                Bilar synkroniseras automatiskt från{' '}
+                Se våra bilar på{' '}
                 <a href="https://www.blocket.se/mobility/dealer/7514308/begbilnorr" className="text-primary-600 hover:underline" target="_blank" rel="noopener noreferrer">
-                  vår Blocket-sida
+                  Blocket
                 </a>
               </p>
             </div>
