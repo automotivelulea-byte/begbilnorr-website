@@ -5,6 +5,7 @@ Fetches car listings from Blocket dealer page and saves to JSON
 
 import json
 import os
+import re
 import logging
 from datetime import datetime
 from pathlib import Path
@@ -67,18 +68,50 @@ class BlocketSync:
             logger.error(f"Error fetching listings: {e}")
             return []
 
+    def fetch_all_images(self, ad_id: str, canonical_url: str) -> list[str]:
+        """Fetch all images for a car from the Blocket page"""
+        try:
+            url = canonical_url or f"https://www.blocket.se/mobility/item/{ad_id}"
+            response = self.client.get(url)
+            response.raise_for_status()
+
+            # Extract all unique image URLs from the page
+            pattern = r'https://images\.blocketcdn\.se/dynamic/default/item/[^"\'>\s]+'
+            matches = re.findall(pattern, response.text)
+
+            # Remove duplicates while preserving order
+            seen = set()
+            unique_images = []
+            for img in matches:
+                if img not in seen:
+                    seen.add(img)
+                    unique_images.append(img)
+
+            logger.info(f"Found {len(unique_images)} images for ad {ad_id}")
+            return unique_images
+
+        except Exception as e:
+            logger.error(f"Error fetching images for ad {ad_id}: {e}")
+            return []
+
     def parse_listing(self, listing: dict) -> dict:
         """Parse a Blocket listing into our format (blocket-api.se format)"""
         # Extract ad ID
         ad_id = listing.get("ad_id", listing.get("id", ""))
 
-        # Get main image
-        images = []
-        image_data = listing.get("image", {})
-        if isinstance(image_data, dict) and image_data.get("url"):
-            images.append(image_data["url"])
-        elif isinstance(image_data, str):
-            images.append(image_data)
+        # Get canonical URL
+        canonical_url = listing.get("canonical_url", f"https://www.blocket.se/mobility/item/{ad_id}")
+
+        # Get all images from the Blocket page
+        images = self.fetch_all_images(str(ad_id), canonical_url)
+
+        # Fallback to main image if no images found
+        if not images:
+            image_data = listing.get("image", {})
+            if isinstance(image_data, dict) and image_data.get("url"):
+                images.append(image_data["url"])
+            elif isinstance(image_data, str):
+                images.append(image_data)
 
         # Get price
         price = listing.get("price", {})
@@ -94,9 +127,6 @@ class BlocketSync:
 
         # Get location
         location_name = listing.get("location", "")
-
-        # Get canonical URL or build one
-        canonical_url = listing.get("canonical_url", f"https://www.blocket.se/annons/{ad_id}")
 
         return {
             "id": str(ad_id),

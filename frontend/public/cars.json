@@ -1,6 +1,6 @@
 {
   "dealer_id": "7514308",
-  "last_sync": "2026-01-13T18:20:10.520820",
+  "last_sync": "2026-01-14T06:57:33.970421",
   "count": 20,
   "cars": [
     {
@@ -20,11 +20,21 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/20075817/88a1683f-d2ed-4f66-9461-6432cc50fe9e"
+        "https://images.blocketcdn.se/dynamic/default/item/20075817/88a1683f-d2ed-4f66-9461-6432cc50fe9e",
+        "https://images.blocketcdn.se/dynamic/default/item/20075817/f029f24b-23cd-45de-8546-86de593b70d9",
+        "https://images.blocketcdn.se/dynamic/default/item/20075817/e7934fdc-93b1-42d4-8599-de4b61dfddcf",
+        "https://images.blocketcdn.se/dynamic/default/item/20075817/ecfe9705-7996-4f24-ab09-56fc7a3c06d3",
+        "https://images.blocketcdn.se/dynamic/default/item/20075817/d1059a4d-da7e-45ee-adb3-f76e04937400",
+        "https://images.blocketcdn.se/dynamic/default/item/20075817/010fcc61-5f98-4481-8f7f-0e969be1b5e3",
+        "https://images.blocketcdn.se/dynamic/default/item/20075817/816b53f4-784b-4d2a-9bbe-571d356cea26",
+        "https://images.blocketcdn.se/dynamic/default/item/20075817/fa2d96fb-4332-4ee4-897e-a1a5b86ac909",
+        "https://images.blocketcdn.se/dynamic/default/item/20075817/957c2189-5471-4405-a863-7f4057ec7000",
+        "https://images.blocketcdn.se/dynamic/default/item/20075817/3bd80113-ba5b-4e06-926d-333c43820c4f",
+        "https://images.blocketcdn.se/dynamic/default/item/20075817/f329b5e6-1748-4124-8949-12dfe92fb423"
       ],
       "description": "Plug-in Hybrid 1.8 • Automat • Låg skatt & eldrift",
       "regno": "NLR717",
-      "fetched_at": "2026-01-13T18:20:10.520705"
+      "fetched_at": "2026-01-14T06:57:27.933500"
     },
     {
       "id": "20075513",
@@ -43,11 +53,22 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/20075513/50f365f1-25d0-40be-bcac-b2a00a6bff26"
+        "https://images.blocketcdn.se/dynamic/default/item/20075513/50f365f1-25d0-40be-bcac-b2a00a6bff26",
+        "https://images.blocketcdn.se/dynamic/default/item/20075513/53877edf-7685-444b-9cc2-7bbca925d64d",
+        "https://images.blocketcdn.se/dynamic/default/item/20075513/7669356d-a32e-4da5-b22e-bb788d0b2659",
+        "https://images.blocketcdn.se/dynamic/default/item/20075513/ccaf76b1-c20f-4a86-b81e-7dfb61fdbb2a",
+        "https://images.blocketcdn.se/dynamic/default/item/20075513/2ef948c4-dcb5-47f9-abfb-d5a04e57b02d",
+        "https://images.blocketcdn.se/dynamic/default/item/20075513/86914261-45ef-48fc-a8a6-d9b9f0bbbe26",
+        "https://images.blocketcdn.se/dynamic/default/item/20075513/9cd31d9e-346a-417a-9f19-f1501b5dfd83",
+        "https://images.blocketcdn.se/dynamic/default/item/20075513/6a863b8d-a3ab-4341-be43-04ce3b28859c",
+        "https://images.blocketcdn.se/dynamic/default/item/20075513/144494d4-a6e2-4c8c-a6db-08b4339095bd",
+        "https://images.blocketcdn.se/dynamic/default/item/20075513/998bf683-2cd7-41f6-b5aa-00ae0e8a45d9",
+        "https://images.blocketcdn.se/dynamic/default/item/20075513/0cc9769b-52fd-4bb7-88d0-8abb83a1811c",
+        "https://images.blocketcdn.se/dynamic/default/item/20075513/58bea01b-e7bc-44dc-928b-ca7ab3f9c77b"
       ],
       "description": "Sportscombi 1.4 TSI BMT MultiFuel Base Euro 6",
       "regno": "AYD938",
-      "fetched_at": "2026-01-13T18:20:10.520730"
+      "fetched_at": "2026-01-14T06:57:28.241195"
     },
     {
       "id": "20074602",
@@ -66,11 +87,19 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/20074602/880a32ce-d9a8-445f-b1d8-e5a29aa36267"
+        "https://images.blocketcdn.se/dynamic/default/item/20074602/880a32ce-d9a8-445f-b1d8-e5a29aa36267",
+        "https://images.blocketcdn.se/dynamic/default/item/20074602/f24da833-638e-426b-9a0e-b5b067b92118",
+        "https://images.blocketcdn.se/dynamic/default/item/20074602/11312123-c8e3-4794-9b94-143e9d8d0528",
+        "https://images.blocketcdn.se/dynamic/default/item/20074602/26203eed-b824-4137-a48f-f35f64ce0905",
+        "https://images.blocketcdn.se/dynamic/default/item/20074602/6f2b9959-8547-4f2e-9828-876e3bcf6565",
+        "https://images.blocketcdn.se/dynamic/default/item/20074602/0f94f1df-8f92-421e-b776-8f752ab629ad",
+        "https://images.blocketcdn.se/dynamic/default/item/20074602/4b841529-4e5f-4738-bbb1-831c00c8c2c6",
+        "https://images.blocketcdn.se/dynamic/default/item/20074602/a35e5f63-d224-4bc7-9180-36d79ee09622",
+        "https://images.blocketcdn.se/dynamic/default/item/20074602/dabc8b25-a605-4d4e-af54-27032060f6f8"
       ],
       "description": "Avant 2.0 TDI DPF",
       "regno": "LOT600",
-      "fetched_at": "2026-01-13T18:20:10.520737"
+      "fetched_at": "2026-01-14T06:57:28.735577"
     },
     {
       "id": "19994678",
@@ -89,11 +118,19 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19994678/cdf7578b-02c3-43d3-9a0f-187f9cfbfb59"
+        "https://images.blocketcdn.se/dynamic/default/item/19994678/cdf7578b-02c3-43d3-9a0f-187f9cfbfb59",
+        "https://images.blocketcdn.se/dynamic/default/item/19994678/8c5c171f-4a89-4785-b432-5ec527982852",
+        "https://images.blocketcdn.se/dynamic/default/item/19994678/44fc9f8b-2e6c-4723-9bbf-daf805bb83db",
+        "https://images.blocketcdn.se/dynamic/default/item/19994678/15cfb77f-866b-450d-9120-4bf2ef5ea9ac",
+        "https://images.blocketcdn.se/dynamic/default/item/19994678/ef13683b-2fc2-4bf4-98f2-8980b015a918",
+        "https://images.blocketcdn.se/dynamic/default/item/19994678/748f9c24-0660-46f4-bb74-496570a657af",
+        "https://images.blocketcdn.se/dynamic/default/item/19994678/56632ada-4aa3-450e-b62a-cbc6c0be8655",
+        "https://images.blocketcdn.se/dynamic/default/item/19994678/ce972d88-ef85-4d3c-b4bd-eb253221629d",
+        "https://images.blocketcdn.se/dynamic/default/item/19994678/d2e12d36-4197-4d69-8491-2f13d074b201"
       ],
       "description": "Van 1.6 Multijet • Manuell • Låg skatt & rymlig skåpbil",
       "regno": "HBP068",
-      "fetched_at": "2026-01-13T18:20:10.520743"
+      "fetched_at": "2026-01-14T06:57:29.224945"
     },
     {
       "id": "19994449",
@@ -112,11 +149,19 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19994449/a5e18a92-5923-4221-aac7-854541d33aba"
+        "https://images.blocketcdn.se/dynamic/default/item/19994449/a5e18a92-5923-4221-aac7-854541d33aba",
+        "https://images.blocketcdn.se/dynamic/default/item/19994449/8c9ce39c-8802-4311-b0fb-5a8aa8a9d4cb",
+        "https://images.blocketcdn.se/dynamic/default/item/19994449/0be63ec6-48db-4ec3-b025-991201797f0a",
+        "https://images.blocketcdn.se/dynamic/default/item/19994449/8302192a-3c0e-4219-8f6c-e1e419dabf09",
+        "https://images.blocketcdn.se/dynamic/default/item/19994449/8931529c-4746-4aaf-a94c-05f586675d44",
+        "https://images.blocketcdn.se/dynamic/default/item/19994449/3f765087-c034-40f1-9889-ba5e03e086ed",
+        "https://images.blocketcdn.se/dynamic/default/item/19994449/88de53b5-8eb3-4529-9cc5-6467a9e2097a",
+        "https://images.blocketcdn.se/dynamic/default/item/19994449/91524561-35a4-4898-8d31-a02b320267e5",
+        "https://images.blocketcdn.se/dynamic/default/item/19994449/2f56dbb8-2b89-418f-b8a7-e78b52eb5edb"
       ],
       "description": "Sport Tourer 1.2 TCe",
       "regno": "DWT688",
-      "fetched_at": "2026-01-13T18:20:10.520748"
+      "fetched_at": "2026-01-14T06:57:29.527093"
     },
     {
       "id": "19994375",
@@ -135,11 +180,19 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19994375/1c7048c6-c5bf-43fd-b771-21a30909a512"
+        "https://images.blocketcdn.se/dynamic/default/item/19994375/1c7048c6-c5bf-43fd-b771-21a30909a512",
+        "https://images.blocketcdn.se/dynamic/default/item/19994375/cb71033f-8250-4508-a003-d80fdd52066c",
+        "https://images.blocketcdn.se/dynamic/default/item/19994375/d6d6eb01-d273-4a9f-8206-a89a2cfda966",
+        "https://images.blocketcdn.se/dynamic/default/item/19994375/65f46116-d6f4-491e-95e9-25d212f0abca",
+        "https://images.blocketcdn.se/dynamic/default/item/19994375/56148efb-9eae-448b-8f2b-624e495fc1d9",
+        "https://images.blocketcdn.se/dynamic/default/item/19994375/4fd33017-c744-44c3-8b18-f92e765071ab",
+        "https://images.blocketcdn.se/dynamic/default/item/19994375/004a0f73-4127-4673-b7b7-af1a55442402",
+        "https://images.blocketcdn.se/dynamic/default/item/19994375/7513fb58-e6a7-4e12-ad78-630d57a9ca9f",
+        "https://images.blocketcdn.se/dynamic/default/item/19994375/06d552e3-f769-4502-9334-4db5333db238"
       ],
       "description": "5-dörrars 1.6 VVT-i*Nyserv",
       "regno": "XWH995",
-      "fetched_at": "2026-01-13T18:20:10.520753"
+      "fetched_at": "2026-01-14T06:57:29.825542"
     },
     {
       "id": "19991919",
@@ -158,11 +211,21 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19991919/3c00f471-c45f-475d-9abd-62ec1a11d5c5"
+        "https://images.blocketcdn.se/dynamic/default/item/19991919/3c00f471-c45f-475d-9abd-62ec1a11d5c5",
+        "https://images.blocketcdn.se/dynamic/default/item/19991919/9c212312-4a73-4aaa-ad93-04b8f1016cd1",
+        "https://images.blocketcdn.se/dynamic/default/item/19991919/157d809d-53f4-4b65-aa1c-e5434cd5d5a3",
+        "https://images.blocketcdn.se/dynamic/default/item/19991919/cbca1b7b-4804-4eb6-b8cf-b4e3a3e4807b",
+        "https://images.blocketcdn.se/dynamic/default/item/19991919/a024dce0-bf72-4b67-b169-a39ba1bea9f4",
+        "https://images.blocketcdn.se/dynamic/default/item/19991919/93b79709-8b1b-4f8a-a82f-5b4512071d42",
+        "https://images.blocketcdn.se/dynamic/default/item/19991919/1a22b695-5889-4d01-a349-25a03aac1aec",
+        "https://images.blocketcdn.se/dynamic/default/item/19991919/9aaceef1-794c-4e86-b2e3-345d69492471",
+        "https://images.blocketcdn.se/dynamic/default/item/19991919/74df29ad-1f41-46c8-8eda-1d653cd2042f",
+        "https://images.blocketcdn.se/dynamic/default/item/19991919/d5a8326a-8562-4c73-830f-aff6bfb97ad7",
+        "https://images.blocketcdn.se/dynamic/default/item/19991919/4ddaaf08-a64d-4be8-8162-9b1dfdfbbf97"
       ],
       "description": "Kombi 1.6 TDCi Trend Euro 5",
       "regno": "NFG073",
-      "fetched_at": "2026-01-13T18:20:10.520758"
+      "fetched_at": "2026-01-14T06:57:30.115243"
     },
     {
       "id": "19928421",
@@ -181,11 +244,20 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19928421/9e2bbdd3-aa0a-4373-bc96-b5bc73ae3e23"
+        "https://images.blocketcdn.se/dynamic/default/item/19928421/9e2bbdd3-aa0a-4373-bc96-b5bc73ae3e23",
+        "https://images.blocketcdn.se/dynamic/default/item/19928421/a9421de7-0a43-4169-9195-0da59bbcd084",
+        "https://images.blocketcdn.se/dynamic/default/item/19928421/dbd54c03-3b40-40fa-ba23-754048531739",
+        "https://images.blocketcdn.se/dynamic/default/item/19928421/bc496fa2-9b57-4285-ab72-7b68a045b2bb",
+        "https://images.blocketcdn.se/dynamic/default/item/19928421/23f56357-3a42-4a5a-9450-79faa04f27e5",
+        "https://images.blocketcdn.se/dynamic/default/item/19928421/dea793f8-c55d-49c1-8e6e-eaed29f6300f",
+        "https://images.blocketcdn.se/dynamic/default/item/19928421/d5fe7f1f-ec03-47de-bd80-f5e219940c99",
+        "https://images.blocketcdn.se/dynamic/default/item/19928421/150eb1c9-13f0-4991-84a3-7243e2b13ba2",
+        "https://images.blocketcdn.se/dynamic/default/item/19928421/f93c3c00-3723-4b03-abd0-47d1f10a8a31",
+        "https://images.blocketcdn.se/dynamic/default/item/19928421/9f352862-bdea-4be0-8076-2f64073c1fa6"
       ],
       "description": "Variant 2.0 TDI DPF BMT 4Motion GT",
       "regno": "JRD560",
-      "fetched_at": "2026-01-13T18:20:10.520762"
+      "fetched_at": "2026-01-14T06:57:30.408726"
     },
     {
       "id": "19927657",
@@ -204,11 +276,21 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19927657/9352f37c-085a-4bb9-9501-bc294b9a3ab0"
+        "https://images.blocketcdn.se/dynamic/default/item/19927657/9352f37c-085a-4bb9-9501-bc294b9a3ab0",
+        "https://images.blocketcdn.se/dynamic/default/item/19927657/87bab6ce-16f5-491e-be1b-36ddb192e502",
+        "https://images.blocketcdn.se/dynamic/default/item/19927657/b8306427-bca7-4978-a3c8-d32bff816ee5",
+        "https://images.blocketcdn.se/dynamic/default/item/19927657/4481eea9-b6eb-4bdf-bbc7-7ca95f449d73",
+        "https://images.blocketcdn.se/dynamic/default/item/19927657/5e8d4a96-e987-4d5e-b236-234e1f4febc5",
+        "https://images.blocketcdn.se/dynamic/default/item/19927657/7c30056c-d8ec-46d7-be87-3b2a56a709ea",
+        "https://images.blocketcdn.se/dynamic/default/item/19927657/0e333f3b-f616-4201-ae9d-db54de66dd49",
+        "https://images.blocketcdn.se/dynamic/default/item/19927657/276cf3bd-805a-492b-b485-0c5e59344a7b",
+        "https://images.blocketcdn.se/dynamic/default/item/19927657/05542289-9cac-4610-bbad-b0317b477702",
+        "https://images.blocketcdn.se/dynamic/default/item/19927657/1feafed6-f0e0-43a7-9bfb-fb3f8f0740a9",
+        "https://images.blocketcdn.se/dynamic/default/item/19927657/69aaac34-5153-4cc5-9928-2452a4255265"
       ],
       "description": "1.0 95hk – Låg skatt, Manuell, Välservad!",
       "regno": "YNW313",
-      "fetched_at": "2026-01-13T18:20:10.520767"
+      "fetched_at": "2026-01-14T06:57:30.712871"
     },
     {
       "id": "19808814",
@@ -227,11 +309,20 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19808814/07d07fe6-6449-4548-ab6f-ca6d4fb0c9a9"
+        "https://images.blocketcdn.se/dynamic/default/item/19808814/07d07fe6-6449-4548-ab6f-ca6d4fb0c9a9",
+        "https://images.blocketcdn.se/dynamic/default/item/19808814/af4548b2-69ad-47b1-8a7c-3a61b6c99d2b",
+        "https://images.blocketcdn.se/dynamic/default/item/19808814/9792f1b5-d72b-4310-b368-0bfea20a86f9",
+        "https://images.blocketcdn.se/dynamic/default/item/19808814/fb52d9ea-f29c-4b64-af31-5263845938c4",
+        "https://images.blocketcdn.se/dynamic/default/item/19808814/eaae2d0e-ebae-4be2-8fc0-3f72010534b0",
+        "https://images.blocketcdn.se/dynamic/default/item/19808814/129956b8-a677-431e-90de-7c38c5a9071d",
+        "https://images.blocketcdn.se/dynamic/default/item/19808814/8692ed8b-2e2c-45ff-9772-7346b3182131",
+        "https://images.blocketcdn.se/dynamic/default/item/19808814/f40b707d-a1b3-4fb4-b943-530503b87c68",
+        "https://images.blocketcdn.se/dynamic/default/item/19808814/ac0a3f37-91ca-4d95-833c-db6da16241f9",
+        "https://images.blocketcdn.se/dynamic/default/item/19808814/7d22b5c8-e014-49d6-8d09-e01da7f872e1"
       ],
       "description": "D4 AWD Geartronic Ocean Race",
       "regno": "FSY572",
-      "fetched_at": "2026-01-13T18:20:10.520772"
+      "fetched_at": "2026-01-14T06:57:31.006467"
     },
     {
       "id": "19786669",
@@ -250,11 +341,19 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19786669/6111d792-f8e2-4247-8e3d-38a82198d624"
+        "https://images.blocketcdn.se/dynamic/default/item/19786669/6111d792-f8e2-4247-8e3d-38a82198d624",
+        "https://images.blocketcdn.se/dynamic/default/item/19786669/8ae01532-dba0-42c3-99d0-aa9f6c248f20",
+        "https://images.blocketcdn.se/dynamic/default/item/19786669/a90539b0-98dc-4be9-bc24-ed9e03cd7e69",
+        "https://images.blocketcdn.se/dynamic/default/item/19786669/bf23f9be-8b2b-452d-9042-9052f51be4cf",
+        "https://images.blocketcdn.se/dynamic/default/item/19786669/a354a4b4-63b0-40c8-8a6a-8a6eb8342fd2",
+        "https://images.blocketcdn.se/dynamic/default/item/19786669/724a5a68-6638-40de-8973-7ff159df9495",
+        "https://images.blocketcdn.se/dynamic/default/item/19786669/01c3745c-4a89-468f-a228-8d2360a16b13",
+        "https://images.blocketcdn.se/dynamic/default/item/19786669/6a200ab0-c534-4d88-a09e-87539cd338df",
+        "https://images.blocketcdn.se/dynamic/default/item/19786669/22d782e5-75d8-4592-aa57-f7fae3fbbc9f"
       ],
       "description": "5-dörrar 1.0 VVT-i Låg Skatt!",
       "regno": "DWA22T",
-      "fetched_at": "2026-01-13T18:20:10.520776"
+      "fetched_at": "2026-01-14T06:57:31.297915"
     },
     {
       "id": "19785503",
@@ -273,11 +372,20 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19785503/e3983d54-a20b-4af0-8d11-8a43248e5850"
+        "https://images.blocketcdn.se/dynamic/default/item/19785503/e3983d54-a20b-4af0-8d11-8a43248e5850",
+        "https://images.blocketcdn.se/dynamic/default/item/19785503/4365947a-e003-4664-a8b5-a39b52095951",
+        "https://images.blocketcdn.se/dynamic/default/item/19785503/30a71944-fcb5-4cff-9986-39bbf908f6f7",
+        "https://images.blocketcdn.se/dynamic/default/item/19785503/29495962-be8e-4764-be59-0fd8eb700338",
+        "https://images.blocketcdn.se/dynamic/default/item/19785503/3cbde934-7b04-4859-ae0b-b43a5f440fc4",
+        "https://images.blocketcdn.se/dynamic/default/item/19785503/ae0f5614-165a-46ed-bbf2-3235d700ad38",
+        "https://images.blocketcdn.se/dynamic/default/item/19785503/7883e84e-f2f8-4c0d-8dbe-98da97223389",
+        "https://images.blocketcdn.se/dynamic/default/item/19785503/55de8108-8a35-448a-86f7-f36f6e830b33",
+        "https://images.blocketcdn.se/dynamic/default/item/19785503/7232a1c7-d34d-4c95-a7d2-e3ee97af78ce",
+        "https://images.blocketcdn.se/dynamic/default/item/19785503/af726483-f893-4f8d-a3c5-1bea88754317"
       ],
       "description": "D3 Geartronic – Drag, VOC, Läder, PDC!",
       "regno": "RCR617",
-      "fetched_at": "2026-01-13T18:20:10.520781"
+      "fetched_at": "2026-01-14T06:57:31.589746"
     },
     {
       "id": "19666955",
@@ -296,11 +404,20 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19666955/5c14bd70-987d-4e2d-81a2-0f756ec31308"
+        "https://images.blocketcdn.se/dynamic/default/item/19666955/5c14bd70-987d-4e2d-81a2-0f756ec31308",
+        "https://images.blocketcdn.se/dynamic/default/item/19666955/c2427cd4-bfbb-4eb4-8e61-223951db025a",
+        "https://images.blocketcdn.se/dynamic/default/item/19666955/5feea321-374f-422d-b4e8-1dfda37acb4c",
+        "https://images.blocketcdn.se/dynamic/default/item/19666955/6607128e-bff3-4447-a2ad-c821a14bf0fa",
+        "https://images.blocketcdn.se/dynamic/default/item/19666955/202aaeb4-8fc4-4260-8d7b-dc0d3034b877",
+        "https://images.blocketcdn.se/dynamic/default/item/19666955/2e6d8691-44f7-4b3e-b5b5-a33e81f02c6f",
+        "https://images.blocketcdn.se/dynamic/default/item/19666955/17f88eea-cfb1-4728-b4f7-2af964215377",
+        "https://images.blocketcdn.se/dynamic/default/item/19666955/c21e95cf-d2b6-4291-bf11-dddc956d900e",
+        "https://images.blocketcdn.se/dynamic/default/item/19666955/4f13411d-1458-44c3-b7e1-c56b9581dbbc",
+        "https://images.blocketcdn.se/dynamic/default/item/19666955/0f0a3a34-f050-4806-996d-6bf781828172"
       ],
       "description": "1.6 HDi 92 8v Active Låg skatt, Rymlig, Ekonomisk!",
       "regno": "OBR493",
-      "fetched_at": "2026-01-13T18:20:10.520785"
+      "fetched_at": "2026-01-14T06:57:31.884204"
     },
     {
       "id": "19666681",
@@ -319,11 +436,20 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19666681/7cbb54b7-47b6-48da-88a2-e4d6b440699b"
+        "https://images.blocketcdn.se/dynamic/default/item/19666681/7cbb54b7-47b6-48da-88a2-e4d6b440699b",
+        "https://images.blocketcdn.se/dynamic/default/item/19666681/15c9e9e7-a19c-4f2c-8fe9-240449353ebf",
+        "https://images.blocketcdn.se/dynamic/default/item/19666681/be597553-6a89-4b02-a6a0-3fa84a3e7c99",
+        "https://images.blocketcdn.se/dynamic/default/item/19666681/83c7795d-67a3-4876-8ed1-4cb34e39855e",
+        "https://images.blocketcdn.se/dynamic/default/item/19666681/b1e8ab42-d9ea-452c-9a8e-ea411dc26da5",
+        "https://images.blocketcdn.se/dynamic/default/item/19666681/ceed0496-feaf-4284-9565-6d99a492046f",
+        "https://images.blocketcdn.se/dynamic/default/item/19666681/fe3fcc4f-4fe3-4eed-a8c4-de6b77b47c51",
+        "https://images.blocketcdn.se/dynamic/default/item/19666681/16794cb2-e443-4078-b3ea-6b1f6645ca57",
+        "https://images.blocketcdn.se/dynamic/default/item/19666681/250f2efd-f082-4e0a-8ffe-05e582dbc4b2",
+        "https://images.blocketcdn.se/dynamic/default/item/19666681/568c09d8-7214-4c4f-8ab8-4fabe436579e"
       ],
       "description": "1.6 TDI Kombi Manuell –Låg skatt, Drag, Välservad!",
       "regno": "KSR764",
-      "fetched_at": "2026-01-13T18:20:10.520790"
+      "fetched_at": "2026-01-14T06:57:32.188302"
     },
     {
       "id": "19553032",
@@ -342,11 +468,21 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19553032/f7c725e6-dc7d-4577-b13f-cf186bf49c08"
+        "https://images.blocketcdn.se/dynamic/default/item/19553032/f7c725e6-dc7d-4577-b13f-cf186bf49c08",
+        "https://images.blocketcdn.se/dynamic/default/item/19553032/3fcabe6f-9d4f-4bde-b5ab-f19bacf69f1d",
+        "https://images.blocketcdn.se/dynamic/default/item/19553032/df4d39c9-6598-4198-a90a-2db1d6cf49f9",
+        "https://images.blocketcdn.se/dynamic/default/item/19553032/c288a908-9535-440e-8b13-fcc63313e91f",
+        "https://images.blocketcdn.se/dynamic/default/item/19553032/4b73e407-38d8-4998-874d-1e25bc221da4",
+        "https://images.blocketcdn.se/dynamic/default/item/19553032/c0236683-dad9-4502-a455-a877aa8c2e78",
+        "https://images.blocketcdn.se/dynamic/default/item/19553032/81b5d5bb-059a-45cd-9a25-1bd7b2aa08d1",
+        "https://images.blocketcdn.se/dynamic/default/item/19553032/1cb36ba7-dc90-4b00-9637-9a1c0ce49f8a",
+        "https://images.blocketcdn.se/dynamic/default/item/19553032/b7c4d2fd-a58a-4612-91bd-71e40461a4a0",
+        "https://images.blocketcdn.se/dynamic/default/item/19553032/3afd607c-1094-490f-b465-3bcefa1ac992",
+        "https://images.blocketcdn.se/dynamic/default/item/19553032/93333bfc-b843-4967-a830-8bb49816e560"
       ],
       "description": "1.6 CRDi Business Kombi – Nyservad, Nybesiktad, Få Ägar",
       "regno": "NHU742",
-      "fetched_at": "2026-01-13T18:20:10.520794"
+      "fetched_at": "2026-01-14T06:57:32.486612"
     },
     {
       "id": "19552584",
@@ -365,11 +501,20 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19552584/323e3e50-38b1-4b6a-b143-2177f20ab9ad"
+        "https://images.blocketcdn.se/dynamic/default/item/19552584/323e3e50-38b1-4b6a-b143-2177f20ab9ad",
+        "https://images.blocketcdn.se/dynamic/default/item/19552584/577b3202-992b-4d99-aefb-3680352001b2",
+        "https://images.blocketcdn.se/dynamic/default/item/19552584/9f5012c2-b3d6-4388-a09b-f55f65611cac",
+        "https://images.blocketcdn.se/dynamic/default/item/19552584/67ced94d-04bd-4b26-91ab-ff0f5bfd9bb3",
+        "https://images.blocketcdn.se/dynamic/default/item/19552584/f0b80fed-34f7-45cb-b196-0de92f3c36c5",
+        "https://images.blocketcdn.se/dynamic/default/item/19552584/861d7ded-77bf-4c0d-9a1a-797310d78bf0",
+        "https://images.blocketcdn.se/dynamic/default/item/19552584/7fc9fd9b-b762-48ee-b49b-ea82fe5b2754",
+        "https://images.blocketcdn.se/dynamic/default/item/19552584/49714477-668a-4666-8f7d-336d2c1a7468",
+        "https://images.blocketcdn.se/dynamic/default/item/19552584/ca2f7e2c-2105-41c4-a56f-c1ecd63eb7e1",
+        "https://images.blocketcdn.se/dynamic/default/item/19552584/f7d8761a-ea9c-4d8c-b8c2-2c96ac42087c"
       ],
       "description": "2.0 TDCi Sport Edition *Nyserv",
       "regno": "LMG599",
-      "fetched_at": "2026-01-13T18:20:10.520799"
+      "fetched_at": "2026-01-14T06:57:32.789510"
     },
     {
       "id": "19459502",
@@ -388,11 +533,20 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19459502/1abd1076-a3a3-4d88-ba8c-80e4ca5222a6"
+        "https://images.blocketcdn.se/dynamic/default/item/19459502/1abd1076-a3a3-4d88-ba8c-80e4ca5222a6",
+        "https://images.blocketcdn.se/dynamic/default/item/19459502/3c3547a7-0c73-4307-a36f-3d980e37261e",
+        "https://images.blocketcdn.se/dynamic/default/item/19459502/6e399438-08ae-4cda-a4d7-b5ebf52f0e94",
+        "https://images.blocketcdn.se/dynamic/default/item/19459502/2c8906cb-0115-477a-a381-d8d52bf9bf88",
+        "https://images.blocketcdn.se/dynamic/default/item/19459502/e38803e7-b7ac-4481-a807-fd0359344e33",
+        "https://images.blocketcdn.se/dynamic/default/item/19459502/6df9b744-af32-4621-9e7d-ce3993c6a4e0",
+        "https://images.blocketcdn.se/dynamic/default/item/19459502/657815d3-f4a3-4817-a4f9-480b0fe129ff",
+        "https://images.blocketcdn.se/dynamic/default/item/19459502/b2690cb3-cf5d-4e70-9050-0524f758f41c",
+        "https://images.blocketcdn.se/dynamic/default/item/19459502/ec3fe54f-7155-4023-aad0-9a7775942138",
+        "https://images.blocketcdn.se/dynamic/default/item/19459502/8f0cad4c-d0ba-4758-a520-27cc03b31660"
       ],
       "description": "1.2 PureTech 100 EAT Active Pack",
       "regno": "FZU76J",
-      "fetched_at": "2026-01-13T18:20:10.520804"
+      "fetched_at": "2026-01-14T06:57:33.090172"
     },
     {
       "id": "19247136",
@@ -411,11 +565,19 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19247136/c2775fe5-daba-4041-b874-1dfe67fac71c"
+        "https://images.blocketcdn.se/dynamic/default/item/19247136/c2775fe5-daba-4041-b874-1dfe67fac71c",
+        "https://images.blocketcdn.se/dynamic/default/item/19247136/ca19f50e-cfd9-42b8-9b1c-d72daa859256",
+        "https://images.blocketcdn.se/dynamic/default/item/19247136/7540361c-0b57-4707-8d5f-d2ac9a8b6076",
+        "https://images.blocketcdn.se/dynamic/default/item/19247136/19f32c67-7a1f-46a6-8328-e355a3eef3fa",
+        "https://images.blocketcdn.se/dynamic/default/item/19247136/8decd18b-fa7c-42e3-9e82-035870ed75ed",
+        "https://images.blocketcdn.se/dynamic/default/item/19247136/424dd6cc-6e6e-4287-9537-f0714d7e5601",
+        "https://images.blocketcdn.se/dynamic/default/item/19247136/74c634f6-c4ee-4598-a39e-14f7e8bd6f79",
+        "https://images.blocketcdn.se/dynamic/default/item/19247136/07aaa6b7-170a-4f85-98ae-e2074c785c56",
+        "https://images.blocketcdn.se/dynamic/default/item/19247136/cecf77e5-6f60-41bb-8a07-7a9d19df2994"
       ],
       "description": "5-dörrar 1.3 MZR Manuell, Låg skatt",
       "regno": "CYD170",
-      "fetched_at": "2026-01-13T18:20:10.520808"
+      "fetched_at": "2026-01-14T06:57:33.387245"
     },
     {
       "id": "19238218",
@@ -434,11 +596,24 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/19238218/bb8bc12a-c931-4bda-9b54-cd605166fc51"
+        "https://images.blocketcdn.se/dynamic/default/item/19238218/bb8bc12a-c931-4bda-9b54-cd605166fc51",
+        "https://images.blocketcdn.se/dynamic/default/item/19238218/da62815d-c5cb-4405-995b-bd023ad3f8fb",
+        "https://images.blocketcdn.se/dynamic/default/item/19238218/c8cd7737-5b25-491e-b174-a5a846aec1eb",
+        "https://images.blocketcdn.se/dynamic/default/item/19238218/a0fe4336-1dc2-40b3-b55c-5e1cc81e061e",
+        "https://images.blocketcdn.se/dynamic/default/item/19238218/bcd4ad8f-94b3-46d0-88ec-493a3db04f30",
+        "https://images.blocketcdn.se/dynamic/default/item/19238218/bee60e4b-b8df-4d7e-a686-c00f8833d6eb",
+        "https://images.blocketcdn.se/dynamic/default/item/19238218/bb5acfe6-8e19-4146-96a3-46d8a502dac2",
+        "https://images.blocketcdn.se/dynamic/default/item/19238218/db697017-ee5c-487e-845a-ce625afafd0b",
+        "https://images.blocketcdn.se/dynamic/default/item/19238218/19fb5192-a325-47cd-b9ca-dc4c42ca57f3",
+        "https://images.blocketcdn.se/dynamic/default/item/19238218/7daf05e8-d85a-4ac5-aaad-143f9ab8e078",
+        "https://images.blocketcdn.se/dynamic/default/item/19238218/2e6c61dc-e23e-48b8-ae84-dd5272fcf72d",
+        "https://images.blocketcdn.se/dynamic/default/item/19238218/c60c5cb8-355d-484d-876d-e135d13c4e7c",
+        "https://images.blocketcdn.se/dynamic/default/item/19238218/d0135be1-e6bd-471b-a1b5-501b798d3383",
+        "https://images.blocketcdn.se/dynamic/default/item/19238218/4bffb36d-8ee9-45a0-b87c-8704ba8f9a86"
       ],
       "description": "350+ 90.6 kWh",
       "regno": "LJB27B",
-      "fetched_at": "2026-01-13T18:20:10.520813"
+      "fetched_at": "2026-01-14T06:57:33.679009"
     },
     {
       "id": "16634216",
@@ -457,11 +632,20 @@
       "engine_power": "",
       "location": "Luleå",
       "images": [
-        "https://images.blocketcdn.se/dynamic/default/item/16634216/932b951d-8421-4631-b0a7-e74ece2fe8a9"
+        "https://images.blocketcdn.se/dynamic/default/item/16634216/932b951d-8421-4631-b0a7-e74ece2fe8a9",
+        "https://images.blocketcdn.se/dynamic/default/item/16634216/4a7aee7b-00b5-4ecf-80ec-571a524942c1",
+        "https://images.blocketcdn.se/dynamic/default/item/16634216/7ca2618a-5651-4c26-9e20-e255099541e6",
+        "https://images.blocketcdn.se/dynamic/default/item/16634216/66738e9e-c3b8-42c3-9f68-6a35e1fbb76e",
+        "https://images.blocketcdn.se/dynamic/default/item/16634216/51870f1b-6d6d-4456-9c59-87e93f4c6327",
+        "https://images.blocketcdn.se/dynamic/default/item/16634216/033b7c24-e161-42ca-8fff-d5da90c4791d",
+        "https://images.blocketcdn.se/dynamic/default/item/16634216/43d4ceb9-7837-4e9c-b67d-8eef7646b122",
+        "https://images.blocketcdn.se/dynamic/default/item/16634216/f9e15acb-3c5e-4035-bec4-3881b7bb1874",
+        "https://images.blocketcdn.se/dynamic/default/item/16634216/5d934aa3-6b19-4ed8-8dbc-ed8ea7b9ecc6",
+        "https://images.blocketcdn.se/dynamic/default/item/16634216/abfceecc-58ec-46ef-8513-931e72be1a08"
       ],
       "description": "7-Seater 2.0 TDI SCR 4x4 Businessline*Moms",
       "regno": "BFC63H",
-      "fetched_at": "2026-01-13T18:20:10.520818"
+      "fetched_at": "2026-01-14T06:57:33.970415"
     }
   ]
 }
