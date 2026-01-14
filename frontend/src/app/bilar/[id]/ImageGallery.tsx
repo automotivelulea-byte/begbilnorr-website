@@ -45,11 +45,11 @@ export default function ImageGallery({ images, title }: ImageGalleryProps) {
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden">
       {/* Main Image */}
-      <div className="relative h-[500px] bg-black flex items-center justify-center">
+      <div className="relative aspect-[4/3]">
         <img
           src={images[selectedIndex]}
           alt={`${title} - Bild ${selectedIndex + 1}`}
-          className="max-w-full max-h-full object-contain"
+          className="w-full h-full object-cover"
           onError={() => handleImageError(selectedIndex)}
         />
 
