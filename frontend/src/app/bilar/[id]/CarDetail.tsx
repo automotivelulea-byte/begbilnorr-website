@@ -78,13 +78,6 @@ export default function CarDetailPage() {
           <div className="lg:col-span-2 space-y-6">
             <ImageGallery images={car.images} title={car.title} />
 
-            {car.description && (
-              <div className="bg-white rounded-xl shadow-md p-6">
-                <h2 className="text-xl font-semibold text-gray-900 mb-4">Beskrivning</h2>
-                <p className="text-gray-600 whitespace-pre-line">{car.description}</p>
-              </div>
-            )}
-
             <div className="bg-white rounded-xl shadow-md p-6">
               <h2 className="text-xl font-semibold text-gray-900 mb-4">Specifikationer</h2>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -96,6 +89,13 @@ export default function CarDetailPage() {
                 ))}
               </div>
             </div>
+
+            {car.description && (
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h2 className="text-xl font-semibold text-gray-900 mb-4">Beskrivning</h2>
+                <p className="text-gray-600 whitespace-pre-line">{car.description}</p>
+              </div>
+            )}
           </div>
 
           <div className="space-y-6">
