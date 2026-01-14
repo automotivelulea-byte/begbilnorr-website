@@ -68,16 +68,18 @@ class BlocketSync:
             logger.error(f"Error fetching listings: {e}")
             return []
 
-    def fetch_all_images(self, ad_id: str, canonical_url: str) -> list[str]:
-        """Fetch all images for a car from the Blocket page"""
+    def fetch_ad_details(self, ad_id: str, canonical_url: str) -> dict:
+        """Fetch all images and description for a car from the Blocket page"""
+        result = {"images": [], "description": ""}
         try:
             url = canonical_url or f"https://www.blocket.se/mobility/item/{ad_id}"
             response = self.client.get(url)
             response.raise_for_status()
+            html = response.text
 
             # Extract all unique image URLs from the page
             pattern = r'https://images\.blocketcdn\.se/dynamic/default/item/[^"\'>\s]+'
-            matches = re.findall(pattern, response.text)
+            matches = re.findall(pattern, html)
 
             # Remove duplicates while preserving order
             seen = set()
@@ -87,12 +89,31 @@ class BlocketSync:
                     seen.add(img)
                     unique_images.append(img)
 
+            result["images"] = unique_images
             logger.info(f"Found {len(unique_images)} images for ad {ad_id}")
-            return unique_images
+
+            # Extract description from the page
+            desc_match = re.search(r'Beskrivning.*?<div[^>]*class="whitespace-pre-wrap[^"]*"[^>]*>(.*?)</div>', html, re.DOTALL)
+            if desc_match:
+                description = desc_match.group(1)
+                # Clean up HTML entities and tags
+                description = re.sub(r'<br\s*/?>', '\n', description)
+                description = re.sub(r'<[^>]+>', '', description)
+                description = description.replace('&amp;', '&')
+                description = description.replace('&lt;', '<')
+                description = description.replace('&gt;', '>')
+                description = description.replace('&quot;', '"')
+                description = description.replace('&#39;', "'")
+                description = description.replace('&nbsp;', ' ')
+                description = description.strip()
+                result["description"] = description
+                logger.info(f"Found description ({len(description)} chars) for ad {ad_id}")
+
+            return result
 
         except Exception as e:
-            logger.error(f"Error fetching images for ad {ad_id}: {e}")
-            return []
+            logger.error(f"Error fetching details for ad {ad_id}: {e}")
+            return result
 
     def parse_listing(self, listing: dict) -> dict:
         """Parse a Blocket listing into our format (blocket-api.se format)"""
@@ -102,8 +123,10 @@ class BlocketSync:
         # Get canonical URL
         canonical_url = listing.get("canonical_url", f"https://www.blocket.se/mobility/item/{ad_id}")
 
-        # Get all images from the Blocket page
-        images = self.fetch_all_images(str(ad_id), canonical_url)
+        # Get all images and description from the Blocket page
+        details = self.fetch_ad_details(str(ad_id), canonical_url)
+        images = details["images"]
+        description = details["description"]
 
         # Fallback to main image if no images found
         if not images:
@@ -112,6 +135,10 @@ class BlocketSync:
                 images.append(image_data["url"])
             elif isinstance(image_data, str):
                 images.append(image_data)
+
+        # Fallback to model_specification if no description found
+        if not description:
+            description = listing.get("model_specification", "")
 
         # Get price
         price = listing.get("price", {})
@@ -145,7 +172,7 @@ class BlocketSync:
             "engine_power": "",
             "location": location_name,
             "images": images,
-            "description": listing.get("model_specification", ""),
+            "description": description,
             "regno": listing.get("regno", ""),
             "fetched_at": datetime.utcnow().isoformat(),
         }
